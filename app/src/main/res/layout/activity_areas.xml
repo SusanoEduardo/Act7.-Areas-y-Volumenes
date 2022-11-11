@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Areas">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cv"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/tituloCardAreas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Area"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imgAreas"
+            android:layout_width="128dp"
+            android:layout_height="157dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="30dp"
+            app:srcCompat="@drawable/acirculo" />
+
+        <TextView
+            android:id="@+id/formulaArea"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginVertical="150dp"
+            android:text="Formula"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

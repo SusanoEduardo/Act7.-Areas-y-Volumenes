@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.areas_y_volumenes">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/mi_tatto_3"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mi_tatto_3"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Areas_Y_Volumenes"
+        tools:targetApi="31">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prisma"
+            android:exported="false"
+            android:label="Prisma"
+            android:parentActivityName=".Volumenes" />
+        <activity
+            android:name=".Piramide"
+            android:exported="false"
+            android:label="Piramide"
+            android:parentActivityName=".Volumenes" />
+        <activity
+            android:name=".Esfera"
+            android:exported="false"
+            android:label="Esfera"
+            android:parentActivityName=".Volumenes" />
+        <activity
+            android:name=".Cilindro"
+            android:exported="false"
+            android:label="Cilindro"
+            android:parentActivityName=".Volumenes" />
+        <activity
+            android:name=".Cubo"
+            android:exported="false"
+            android:label="Cubo"
+            android:parentActivityName=".Volumenes" />
+        <activity
+            android:name=".Pentagono"
+            android:exported="false"
+            android:label="Pentagono"
+            android:parentActivityName=".Areas" />
+        <activity
+            android:name=".Rectangulo"
+            android:exported="false"
+            android:label="Rectangulo"
+            android:parentActivityName=".Areas" />
+        <activity
+            android:name=".Triangulo"
+            android:exported="false"
+            android:label="Triangulo"
+            android:parentActivityName=".Areas" />
+        <activity
+            android:name=".Rombo"
+            android:exported="false"
+            android:label="Rombo"
+            android:parentActivityName=".Areas" />
+        <activity
+            android:name=".Circulo"
+            android:exported="false"
+            android:label="Circulo"
+            android:parentActivityName=".Areas" />
+        <activity
+            android:name=".Volumenes"
+            android:exported="false"
+            android:label="Volumenes"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Areas"
+            android:exported="false"
+            android:label="Áreas"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>
